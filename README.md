@@ -1,4 +1,5 @@
 # lap
+
 package resturant;
 public class Burger {
     private String name;
@@ -56,6 +57,7 @@ public class Burger {
         return "your order is " + name + "  " + typeofmeat + "  " + typeofbread + "bread     " + additions + "      " + price;
     }
 }
+
  package resturant;
 
 public class DeluxBurger extends Burger {
@@ -70,6 +72,7 @@ public class DeluxBurger extends Burger {
         super.setPrice(super.getPrice() + 6.5);
 
     }
+    
     package resturant;
 
 public class HealthyBurger extends Burger {
